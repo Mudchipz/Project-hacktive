@@ -1,36 +1,37 @@
-# Project-hacktive
-final project ibm x hacktiv8
+
 # Kalkulator Sederhana
 
-Proyek ini adalah aplikasi kalkulator berbasis web yang dibuat menggunakan HTML, CSS, dan JavaScript. Aplikasi ini dapat melakukan operasi aritmatika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian.
+## Project Title  
+Kalkulator Sederhana
 
-## Struktur File
+## Description  
+Kalkulator ini merupakan aplikasi web untuk melakukan operasi aritmatika dasar. Dibangun dengan tampilan minimalis dan user-friendly, aplikasi ini cocok digunakan sebagai latihan dasar pemrograman web.
 
-- `index.html`  
-  File utama yang menyusun tampilan kalkulator di browser. Menyusun elemen-elemen seperti layar kalkulator (`display`) dan tombol-tombol angka/operator.
+## Project Overview  
+Aplikasi kalkulator yang dapat melakukan penjumlahan, pengurangan, perkalian, dan pembagian. User hanya perlu klik tombol untuk menyusun ekspresi, lalu tekan `=` untuk melihat hasil.
 
-- `app.css`  
-  Mengatur tampilan dan gaya visual kalkulator. Menggunakan Flexbox untuk layout dan Grid untuk tata letak tombol. Menyediakan efek hover dan klik pada tombol.
+## Technologies Used  
+- HTML  
+- CSS (Flexbox & Grid)  
+- JavaScript (DOM & eval)  
+- AI Optimization: IBM Granite
 
-- `hitung.js`  
-  Berisi logika interaksi kalkulator. Fungsi utama:
-  - `appendToDisplay(input)`: Menambahkan input ke tampilan.
-  - `clearDisplay()`: Menghapus seluruh tampilan.
-  - `calculate()`: Mengevaluasi ekspresi matematika menggunakan `eval()`.
+## Features  
+- Operasi dasar: +, -, *, /  
+- Tombol `C` untuk menghapus input  
+- Tampilan responsif dan terpusat  
+- Hover dan efek klik pada tombol  
+- Input hanya melalui tombol (bukan keyboard)
 
-## Fitur
+## AI Support Explanation  
+Optimisasi dilakukan dengan bantuan IBM Granite untuk:  
+- Merapikan dan menyederhanakan fungsi `appendToDisplay`  
+- Mendeteksi duplikasi dan kode yang tidak dipakai  
+- Menyusun struktur file agar lebih efisien dan mudah dibaca
 
-- Tampilan responsif di tengah layar
-- Input hanya dari tombol (keyboard tidak didukung)
-- Operasi dasar: `+`, `-`, `*`, `/`
-- Tombol `C` untuk menghapus
-- Tombol `=` untuk menghitung hasil
+## Setup Instructions  
+1. Simpan `index.html`, `app.css`, dan `hitung.js` dalam satu folder.  
+2. Buka `index.html` di browser.
 
-## Catatan Keamanan
-
-Fungsi `eval()` digunakan untuk menghitung ekspresi. Dalam aplikasi produksi, penggunaan `eval()` tidak direkomendasikan karena potensi risiko keamanan.
-
-## Cara Menjalankan
-
-1. Simpan semua file (`index.html`, `app.css`, `hitung.js`) dalam satu folder.
-2. Buka `index.html` menggunakan browser modern.
+## Screenshot Output (Demo Capture)  
+_Sisipkan gambar tampilan kalkulator di browser di sini_
